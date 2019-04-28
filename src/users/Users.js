@@ -21,7 +21,6 @@ class Users extends Component{
             this.setState({
                   newState
             })
-            // this.state.users[0].age -= 10;
             console.log(this.state.users)
       }
 
