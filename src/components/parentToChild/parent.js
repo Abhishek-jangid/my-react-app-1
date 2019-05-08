@@ -2,8 +2,11 @@ import React from 'react';
 import Child from './child';
 
 const Parent = (props) => {
+
       return(
-            <Child {...props}/>
+            <div>
+            <Child {...props} xyz='xyz'/>
+            </div>
       )
 }
 

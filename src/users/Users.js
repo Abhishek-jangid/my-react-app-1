@@ -58,8 +58,8 @@ class Users extends Component{
                         })
                   }
                   <br></br>
-                  <button onClick={() => this.change_state('awesome firestorm')}>Change State with anonymus function</button>
-                  <button onClick={this.change_state.bind(this,'amazing firestorm')}>Change State with bind function</button>
+                  <button onClick={() => this.change_state('awesome firestorm')}>{this.state.name}</button>
+                  <button onClick={this.change_state.bind(this,'amazing firestorm')}>{this.state.name}</button>
                   <input type="text" onChange={this.change_name_from_input} value={this.state.posp}/>
                   <input type="text" onChange={this.change_name_from_input_v2} value={this.state.namo}/>
                   <br/>
